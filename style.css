@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-image: url(dcdf41c39f7a3d3242397df39f05af9a.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 731px;
+  height: 203px;
+  background-color: rgba(0, 0, 0, 0.5);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.texts{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.emoji{
+  font-size: 70px
+}
+.days-counter, .days-text{
+  font-size: 100px;
+  color: white;
+}
+.button{
+  display: flex;
+  width: 150px;
+  height: 50px;
+}
+button{
+  width: 100%;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: 0;
+}
+button:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+}
+button:active{
+  background-color: rgba(0, 0, 0, 0.5);
+}
