@@ -9,19 +9,20 @@ main{
   justify-content: center;
   align-items: center;
   background-color: black;
-  background-image: url(dcdf41c39f7a3d3242397df39f05af9a.jpg);
+  background-image: url(f5d900a3dbc9983275ee9f594adbe5647fdfa00f_hq.gif);
   background-repeat: no-repeat;
   background-position: center;
 }
 .container{
   display: flex;
   flex-direction: column;
-  width: 731px;
-  height: 203px;
+  width: 600px;
+  height: 300px;
   background-color: rgba(0, 0, 0, 0.5);
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 }
 .texts{
   display: flex;
