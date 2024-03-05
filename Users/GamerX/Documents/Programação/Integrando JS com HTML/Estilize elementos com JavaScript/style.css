@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titles{
+    width: 50%;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input, textarea, button, #sucessMessage{
+    border-radius: 6px;
+    border: none;
+    margin: 6px;
+    height: 60px;
+    width: 50%;
+}
+
+textarea{
+    resize: none;
+}
+
+.deposit{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+#sucessMessage{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+
+#nameErrorMessage{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    margin: 6px;
+    height: 30px;
+    width: 50%;
+}
